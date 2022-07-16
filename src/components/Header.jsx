@@ -5,7 +5,12 @@ export default function Header() {
     <header>
       <div className="header__left">
         <div className="header__logo">
-          <img src="img/header-logo.svg" alt="Логотип" />
+          <img
+            width={100}
+            height={100}
+            src="img/header-logo.svg"
+            alt="Логотип"
+          />
         </div>
         <ul className="header__nav">
           <li>Новини</li>
