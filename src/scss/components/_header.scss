@@ -3,6 +3,11 @@ li {
   color: #2e363e;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
 header {
   margin-top: 35px;
   display: flex;
