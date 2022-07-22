@@ -1,3 +1,7 @@
-# botanical garden website v2 (using react.js)
+# Botanical Garden Website
 
-this project is about developing front-end part of Kherson State Univerity botanical garden website.
+**This is a Kherson State University project for creating a website for our botanical garden.**  
+
+**This repository contains Front-end part of website.**  
+
+### Back-end part located at [this](https://github.com/voinovVladyslav/botanical-garden-api) repository.
