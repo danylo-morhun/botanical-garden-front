@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Welcome from "./components/Welcome";
 import WelcomeNews from "./components/WelcomeNews";
 import Location from "./components/Location";
+import Schedule from "./components/Schedule";
 import React from "react";
 import axios from 'axios';
 
@@ -28,6 +29,7 @@ function App() {
       <Welcome />      
       <WelcomeNews />
       <Location />
+      <Schedule />
     </div>
   );
 }

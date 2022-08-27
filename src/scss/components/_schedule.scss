@@ -1,0 +1,132 @@
+.schedule {
+    margin: 110px auto;
+
+    span,
+    p,
+    h3 {
+    font-family: "Montserrat", open-sans;
+    color: #2e363e;
+  }
+
+ 
+
+  &__title {
+    font-family: "Montserrat", open-sans;
+    color: #2e363e;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  &__content {
+    display: flex;
+
+  &--form {
+    width: 574px;
+    height: 586px;
+    background-color: #e9f3ed;
+    border-radius: 18px;
+  }
+
+  &--info {
+    margin-left: 103px;
+    h3 {
+        font-size: 21px;
+        font-weight: 600;
+      }
+    
+      span, p {
+        font-size: 21px;
+        font-weight: 400;
+      }
+
+    &--days {
+        width: 500px;
+        height: 88px;
+        background-color: #e9f3ed;
+        border-radius: 18px;
+        display: flex;
+        margin-bottom: 14px;
+
+        &--text {
+            margin: auto 15px;
+        }
+
+        &--rectangle {
+            height: 58px;
+            width: 17px;
+            background-color: #91a89b;
+            border-radius: 14px;
+            margin-left: 23px;
+            margin-top: 15px;
+        }
+    }
+
+    &--hours {
+        width: 500px;
+        height: 135px;
+        background-color: #e9f3ed;
+        border-radius: 18px;
+        display: flex;
+        margin-bottom: 15px;
+
+        &--text {
+            margin: auto 15px;
+        }
+
+        &--rectangle {
+            height: 105px;
+            width: 17px;
+            background-color: #91a89b;
+            border-radius: 14px;
+            margin-left: 23px;
+            margin-top: 15px;
+        }
+    }
+
+    &--weekend {
+        width: 500px;
+        height: 88px;
+        background-color: #e9f3ed;
+        border-radius: 18px;
+        display: flex;
+        margin-bottom: 15px;
+
+        &--text {
+            margin: auto 15px;
+        }
+
+        &--rectangle {
+            height: 58px;
+            width: 17px;
+            background-color: #91a89b;
+            border-radius: 14px;
+            margin-left: 23px;
+            margin-top: 15px;
+        }
+    }
+
+    &--price {
+        width: 500px;
+        height: 232px;
+        background-color: #e9f3ed;
+        border-radius: 18px;
+        display: flex;
+        margin-bottom: 15px;
+
+        &--text {
+            margin: auto 15px;
+        }
+
+        &--rectangle {
+            height: 202px;
+            width: 17px;
+            background-color: #91a89b;
+            border-radius: 14px;
+            margin-left: 23px;
+            margin-top: 15px;
+        }
+    }
+  }
+}
+}
