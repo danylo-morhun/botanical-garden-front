@@ -1,0 +1,18 @@
+.location {
+    margin: 110px auto;
+
+  &__title {
+    font-family: "Montserrat", open-sans;
+    color: #2e363e;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  &__map {
+    iframe {
+        border: none;
+    }
+  }
+}
+
