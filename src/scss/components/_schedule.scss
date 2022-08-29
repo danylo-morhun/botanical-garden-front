@@ -26,6 +26,50 @@
     height: 586px;
     background-color: #e9f3ed;
     border-radius: 18px;
+    text-align: center;
+    padding-top: 95px;
+
+    li {
+      text-align: center;
+
+      h3 {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        color: #2e363e;
+        margin: 15px 20px 10px 20px;
+      }
+
+      input, select {
+        border: none;
+        border-bottom: #2e363ea1 solid .5px;
+        color: #2e363e;
+        background: none;
+        font-size: 16px;
+        font-family: Montserrat;
+        width: 90%;
+        padding: 5px;
+      }
+    }
+
+    button {
+      width: 320px;
+      height: 60px;
+      background-color: #91a89b;
+      border: none;
+      border-radius: 18px;
+      color: #2e363e;
+      font-size: 16px;
+      font-family: Montserrat;
+      font-weight: 500;
+      margin: 15px auto;
+      transition: all 0.2s linear;
+            cursor: pointer;
+            &:hover {
+                filter: brightness(90%);
+            }
+
+    }
   }
 
   &--info {
