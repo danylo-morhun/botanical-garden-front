@@ -67,6 +67,7 @@
             cursor: pointer;
             &:hover {
                 filter: brightness(90%);
+                transform: scale(1.01);
             }
 
     }
@@ -91,6 +92,12 @@
         border-radius: 18px;
         display: flex;
         margin-bottom: 14px;
+        transition: all 0.2s linear;
+
+        &:hover {
+          filter: brightness(90%);
+          transform: scale(1.01);
+      }
 
         &--text {
             margin: auto 15px;
@@ -113,6 +120,12 @@
         border-radius: 18px;
         display: flex;
         margin-bottom: 15px;
+        transition: all 0.2s linear;
+
+        &:hover {
+          filter: brightness(90%);
+          transform: scale(1.01);
+      }
 
         &--text {
             margin: auto 15px;
@@ -135,6 +148,12 @@
         border-radius: 18px;
         display: flex;
         margin-bottom: 15px;
+        transition: all 0.2s linear;
+
+        &:hover {
+          filter: brightness(90%);
+          transform: scale(1.01);
+      }
 
         &--text {
             margin: auto 15px;
@@ -157,6 +176,12 @@
         border-radius: 18px;
         display: flex;
         margin-bottom: 15px;
+        transition: all 0.2s linear;
+
+        &:hover {
+          filter: brightness(90%);
+          transform: scale(1.01);
+      }
 
         &--text {
             margin: auto 15px;

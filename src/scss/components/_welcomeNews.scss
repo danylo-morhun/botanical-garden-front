@@ -20,6 +20,12 @@
     &-more {
       font-size: 16px;
       font-weight: 400;
+      cursor: pointer;
+      transition: .2s all linear;
+
+      &:hover {
+        color: #6da59a;
+        }
     }
   }
 
@@ -33,6 +39,13 @@
       background-color: #e9f3ed;
       border-radius: 10px;
       box-shadow: 0px 4px 10px 0px #bbe1fa40;
+      cursor: pointer;
+      transition: all 0.2s linear;
+
+        &:hover {
+          filter: brightness(90%);
+          transform: scale(1.01);
+      }
 
       &-title {
         margin: 50px 30px;
