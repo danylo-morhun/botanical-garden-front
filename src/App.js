@@ -14,7 +14,7 @@ function App() {
   React.useEffect(() => {
     axios
       .get(
-        `http://127.0.0.1:8000/api/news/?format=json`
+        `http://localhost:8000/api/feedback/all-reviews/`
       )
       .then((res) => {
         setNews(res.data);

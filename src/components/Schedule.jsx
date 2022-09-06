@@ -25,8 +25,9 @@ export default function Schedule() {
                   name="excursion_type"
                   required=""
                   id="id_excursion_type"
+                  defaultValue={"Індивідуальні відвідування"}
                 >
-                  <option value="Індивідуальні відвідування" selected>
+                  <option value="Індивідуальні відвідування">
                     Індивідуальні відвідування
                   </option>
                   <option value="Екскурсія для дорослих">
