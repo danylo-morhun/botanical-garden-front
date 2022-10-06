@@ -1,0 +1,108 @@
+frontend:
+  unauthorized:
+    main page:
+      navigation:
+        - sign in
+        - sign up
+
+      excursion schedule:
+        form:
+          - read only
+
+    news page:
+      edit:
+        - disabled
+
+    contacts page:
+      form:
+        - read only
+
+  authorized:
+    customer:
+      main page:
+        - user profile
+
+      profile page:
+        user data:
+          - name
+          - surname
+          - phone number
+          - email
+          - account creating date
+        edit user data:
+          edit:
+            - name
+            - surname
+            - phone number
+            - email
+        user's excursions:
+          future excursions:
+            has excursions?:
+              - list of excursions
+            hasn't excursions?:
+              - book an excursion
+          finsihed excurcions:
+            - list of excursions
+        
+        excursion schedule:
+        form:
+          - fill
+          - submit
+
+      news page:
+        edit:
+          - disabled
+
+      contacts page:
+        form:
+          - fill
+          - submit
+
+    manager:
+      main page:
+        - user profile
+        
+        excursion schedule:
+        form:
+          - fill
+          - submit
+
+      profile page:
+        user data:
+          - name
+          - surname
+          - phone number
+          - email
+          - account creating date
+
+        edit user data:
+          edit:
+            - name
+            - surname
+            - phone number
+            - email
+
+        excursions of all users:
+          - future excursions
+          - finished excursions
+
+        messages of all users:
+          
+        create news:
+          - title
+          - hashtags
+          - text
+          - image
+
+      news page:
+        edit:
+          - title
+          - hashtags
+          - text
+          - image
+        delete:
+
+      contacts page:
+        form:
+          - fill
+          - submit
